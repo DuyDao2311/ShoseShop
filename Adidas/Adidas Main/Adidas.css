@@ -124,14 +124,25 @@ a{
 .cartegory{
     border: 1px solid #e678c8;
     width: 200px;
-    height: 100px;
-    text-align: center;
-    /* padding-top: 10px; */
+    height: 150px;
 }
 .cartegory p{
     font-weight: bold;
     background: #e678c8;
     height: 35px;
+    padding-top: 7px;
+    text-align: center
+}
+.cartegory .CT label{
+    margin: 8px 0px 8px 0px;
+    display: block; 
+    cursor: pointer;
+    padding-left: 50px;
+}
+.cartegory .CT input{
+    width: 14px; 
+    height: 14px; 
+    margin-right: 10px;
 }
 .cartegory-item:nth-child(1){
     flex: 2;
