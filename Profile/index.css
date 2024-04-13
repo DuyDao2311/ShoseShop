@@ -61,6 +61,10 @@ a{
 .menu li:hover ul{
     visibility: visible;
     top: 30px;
+    background: #eb96d4;
+}
+.kind li a{
+    color: white;
 }
 .others{
     display: flex;
